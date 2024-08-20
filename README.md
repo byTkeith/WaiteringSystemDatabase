@@ -14,3 +14,21 @@ Class: Person
 This is an abstract class representing a general person within the system.
 Data Members:
 id: Represents the unique identifier for a person.
+name: Represents the name of the person.
+phone: Represents the contact number of the person.
+Properties:
+ID: Getter and setter for the id field.
+Name: Getter and setter for the name field.
+Phone: Getter and setter for the phone field.
+Constructors:
+Default constructor.
+Parameterized constructor to initialize id, name, and phone.
+Methods:
+ToString(): Overrides the default ToString method to return a string containing the name and phone number of the person.
+4. Form1.cs
+Namespace: WaiteringSystem
+Class: Form1
+This is the main form of the application.
+Constructor:
+Initializes the components of the form.
+Events:
